@@ -1,0 +1,40 @@
+10101000
+1010
+11111111
+10
+10101100.00010000.00010010.10110111
+11111111.11111111.11111111.10000000
+The bits that are set to 1 in the binary subnet mask are used to calculate the network address.
+26 bits
+10101100.00010000.10010001.00011101
+11111111.11111111.00000000.00000000
+172.16.0.0, 10101100.00010000.00000000.00000000
+11000000.10101000.00001010.00001010
+11111111.11111111.11111111.00000000
+192.168.10.0, 11000000.10101000.00001010.00000000
+11000000.10101000.00000001.00010000
+11000000.10101000.00000001.00100000
+no
+192.168.1.30
+10.0.0.0
+10.0.0.0
+yes
+10.0.0.1
+172.16.128.0
+172.16.128.1
+N.N.N.nnnhhhhh, 255.255.255.224, 209.165.200.224
+N.N.N.H, 255.255.255.0, 172.31.45.0
+10.101.98.1, 10.101.99.254, 10.101.99.255
+172.31.45.1, 172.31.45.254, 172.31.45.255
+broadcast
+multicast
+host
+multicast
+public
+private
+invalid, reserved address
+valid
+invalid, reserved address
+invalid, broadcast address
+The subnet mask provides the number of bits to use for the network portion of an address.
+Advancements in computer networking, e.g. NAT, make IPv4 still meet the needs of users. Many organizations continue to use the private IPv4 address space for their internal networking needs.
