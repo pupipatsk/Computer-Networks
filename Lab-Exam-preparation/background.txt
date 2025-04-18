@@ -1,0 +1,24 @@
+Background
+
+- You are a network administrator at a university. 
+- The university has received "161.200.0.0/16" network. 
+- As a network administrator, you have to distribute the IP addresses to each faculty. 
+- The topology shows network inside the university. 
+- Router R1 to R4 are in Campus A of the university, router R5 to R7 are in Campus B of the university. 
+- In Campus A, you decide to use static route. 
+- In Campus B, you decide to use OSPF dynamic route.
+
+- In Campus A, there are two computer laboratory that are always used as exam room. 
+- Each exam room has a switch for their own room (S2 and S3). 
+- Each of the computer in 2 laboratories can communicate among themselves, but cannot communicate with the hosts outside the room. 
+- So you decide to assign VLAN to the 2 rooms.
+
+- In Campus B, there are a student dormitory. 
+- Since there are a lot of students stays in the dormitory, the public IP addresses are not enough for all the students. 
+- As a network administrator, you create a private network and use class A IP addresses. 
+- As you use a private network, you have to do NAT configuration to make the private network able to use the internet. 
+- Moreover, the students might not have skills to assign IP addresses themselves, so you also do DHCP configuration. 
+- As a result, the students in the dormitory can use the internet without configuring static IP address.
+
+- Since there are a lot of subnets in the university, dividing equally subnets may result in IP address shortage. 
+- So, you decide to use VLSM technique to assign IP addresses to each subnet.
